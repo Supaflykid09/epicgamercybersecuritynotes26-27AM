@@ -31,3 +31,28 @@ This is my notes for Cybersecurity
 
 * After everything is finished downloading it should just appear in the selected folder! (Do "pwd" if you need to see where you are)
 
+--------------------------------------------------------------------------------------------
+
+Commands that are indeed helpful (Mix of windows and Linux)
+
+--------------------------------------------------------------------------------------------
+
+pwd - shows where I am at for the files
+
+whoami - shows the current logged in user
+
+sudo - admin perms
+
+ls - shows the files that are in the current folder
+
+mv - moves a file
+
+touch - creates a file
+
+nano - terminal version of notepad, helpful but apparently there is a better option
+
+ssh - remote connect to a terminal
+
+echo - can either say something in the terminal or write text into a file
+	echo "[TEXT]" >> [FILE] - This adds another line to the file.
+
