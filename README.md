@@ -1,8 +1,8 @@
 # epicgamercybersecuritynotes26-27AM
 
-This is my notes for Cybersecurity
+These are my notes for Cybersecurity
 
-\--------------------------------------------------------------------------------------------
+---------------------------------------------------------------
 
 
 
