@@ -1,0 +1,15 @@
+Git commands
+
+\---
+
+git clone <LINK FOR REPO HERE> - This clones the repo based on the link for it.
+
+git add . (and then do) git commit -m "DESCRIPTION HERE" - This commits your changes to your repo but doesn't push them out just yet to be publicly accessible.
+
+git push - This pushes out your changes to the repo to be cloned based on the commit made, make sure you actually have a commit made before pushing anything out
+
+git status - this checks if your version of the repo is out of date and such.
+
+git fetch - It gets all changes that are made but it doesn't merge anything just yet.
+
+git pull - This merges the files that were fetched from the most recent version of the repo.

@@ -1,0 +1,29 @@
+# Vim related commands
+
+--------------------------
+
+
+vim <FILENAME.txt> - opens the file names inside of Vim
+	You can also do the same thing with a preexisting file and it will open there
+
+vim - Opens Vim by itself
+
+These keybinds below are for when you're INSIDE of Vim.
+--------------------------
+
+i - Clicking I makes it so that you can write words to the file
+
+esc - Navagation mode, Command mode, general, or just and escape out of of whatever mode I am in
+
+:w - Save your file
+
+:wq - Save and quit your file
+	:x also does the same thing (SATAN MADE VIM. WHAT THE HELL.)
+
+:q - Quits the file
+
+:q! - Force quits the file without saving
+
+u - undo
+
+ctrl + r - redo
