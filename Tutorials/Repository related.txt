@@ -28,4 +28,6 @@
 
 **How to update your repo**
 
-* Open Powershell and make sure that (WIP)
+* Open Powershell and make sure that you are inside of your Repo folder, (So for example, for me it would be: cd "C:\User\CYB Morning\Documents\epicgamercybersecuritynotes26-27AM" I put quotations because I have a space in my username and I'd recommend putting quotations either way since it would probably reduce the situation of you having an error.)
+* After you have verified that you are inside of the repo folder (pwd to check) type in the command "git fetch" and then it will prepare to merge the files by downloading them
+* After you got that down, all you need to do now is do "git pull" and it will merge the files that you fetched into the folder, or in other words bring your version of the repo up to date.
