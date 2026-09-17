@@ -3,8 +3,11 @@
 
 
 * Create or sign into your GitHub account
+
 * Press on the plus icon in the top right and select "New Repository"
+
 * Once selected, type in your name and description. For now we can select no files to be ignored and also the same for the license. (For the sake of this tutorial, this will be a private Repo)
+
 * There you go! You now have you a cool brand new Repo
 
 
@@ -16,12 +19,26 @@
 
 
 * Go into your chosen Repo you want to clone and select the green code button at the top
-* Click the copy button, you shouldn't need to use SSH or GitHub CLS, HTTP should be just fine.
-* Go to powershell and type in "git clone <link from the code button here" and press enter
 
-&#x20;   	(After putting in the command if you are prompted to sign in, select sign in on browser and follow the steps there)
+* Click the copy button, you shouldn't need to use SSH or GitHub CLS, HTTP should be just fine.
+
+* Go to powershell and type in "git clone <link from the code button here" and press enter
+       (After putting in the command if you are prompted to sign in, select sign in on browser and follow the steps there)
 
 * After everything is finished downloading it should just appear in the selected folder! (Do "pwd" if you need to see where you are)
+
+
+
+
+
+
+**How to check if you're repo is up to date**
+
+* Open Powershell and make sure that you are inside of your Repo folder, (So for example, for me it would be: cd "C:\User\CYB Morning\Documents\epicgamercybersecuritynotes26-27AM" I put quotations because I have a space in my username and I'd recommend putting quotations either way since it would probably reduce the situation of you having an error.)
+
+* Run the command "git status" and it will tell you if you're up to date or not.
+
+
 
 
 
@@ -29,5 +46,38 @@
 **How to update your repo**
 
 * Open Powershell and make sure that you are inside of your Repo folder, (So for example, for me it would be: cd "C:\User\CYB Morning\Documents\epicgamercybersecuritynotes26-27AM" I put quotations because I have a space in my username and I'd recommend putting quotations either way since it would probably reduce the situation of you having an error.)
+
 * After you have verified that you are inside of the repo folder (pwd to check) type in the command "git fetch" and then it will prepare to merge the files by downloading them
+
 * After you got that down, all you need to do now is do "git pull" and it will merge the files that you fetched into the folder, or in other words bring your version of the repo up to date.
+
+
+
+
+
+
+**How to create a commit for your repo**
+
+* Open Powershell and make sure that you are inside of your Repo folder, (So for example, for me it would be: cd "C:\User\CYB Morning\Documents\epicgamercybersecuritynotes26-27AM" I put quotations because I have a space in my username and I'd recommend putting quotations either way since it would probably reduce the situation of you having an error.)
+
+* Run the command "git add ." (You can replace the period with a specific file if you want to only change that specific file but overall you can just put a period)
+
+* After the command finishes you should be able to run the commit command. There are two versions of this command
+Version 1: git commit -m <DESCRIPTION> - This just quickly creates a commit with a description of your choosing. it is recommended to add an actually well thought out description to EVERY SINGLE COMMIT.
+Version 2: git commit - This will open Vim, here you can finish out your commit... Hypothetically...
+
+*I personally recommend using Version 1 because Vim was created by Satan himself, but hey! you do you my man
+
+
+
+
+
+
+**How to push your changes**
+
+* MAKE SURE YOU HAVE A COMMIT READY TO BE PUSHED.
+
+* Open Powershell and make sure that you are inside of your Repo folder, (So for example, for me it would be: cd "C:\User\CYB Morning\Documents\epicgamercybersecuritynotes26-27AM" I put quotations because I have a space in my username and I'd recommend putting quotations either way since it would probably reduce the situation of you having an error.)
+
+* Simply type in the command "git push" and it will push it out! Just check your repo and it should just be there
+
