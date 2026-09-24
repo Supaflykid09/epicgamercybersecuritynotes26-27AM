@@ -27,3 +27,67 @@ esc - Navagation mode, Command mode, general, or just and escape out of of whate
 u - undo
 
 ctrl + r - redo
+
+--------------------------
+
+I am splitting this stuff up man, thank me later
+
+--------------------------
+
+MOVEMENT
+
+--------------------------
+
+ADVANCED COMMANDS:
+
+yy = This copies the entire line that your cursor is on
+
+#yy = Copy multiple lines at once
+
+p = Paste the entire line below the line your cursor is on
+
+P = Pastes the entire line about the line your cursor is on
+
+dd = delete line
+
+#dd = delete a number of lines
+
+:#, $d = delete lines from # to the end
+
+$ = wildcard
+
+--------------------------
+
+ADVANCED INSERT:
+
+I = takes you to the beginning of a line
+
+a = Starts at the next spot the cursor can be
+
+A = Takes you to the end of the line
+
+o = Starts you at the line below your cursor
+
+O = Starts you at the line above your cursor 
+
+x = Works as a backspace, deletes characters to the right
+
+X = JUST USE BACKSPACE MAN. Deletes characters to the left
+
+--------------------------
+
+DIFFERENT MODES:
+
+i = This is insert mode, it makes it pretty much function as notepad pretty much
+
+R = Search and replace characters
+
+v = Visual mode makes it so you can highlight multiple things way easier
+
+	If you wanna tab over multiple lines
+		1: enter visual mode
+		2: highlight lines to tab with arrow keys
+		3: use inequality operators aka < >
+
+
+Navigation mode can technically be accessed with esc but when you launch a file in vim you start in navigation mode
