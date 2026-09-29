@@ -1,0 +1,2 @@
+This is just some notes on Raspberry Pi related things. It's kinda random but what notes aren't?
+

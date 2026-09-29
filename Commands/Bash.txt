@@ -1,0 +1,6 @@
+read = Reads user input
+
+echo "<put in whateva>" = Echos back your thing
+
+read -p "<put in whateva>" <variable> = This waits for user input and once the user has typed a response, that will be the variable for that session.
+

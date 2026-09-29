@@ -1,0 +1,43 @@
+Permission Structure
+---------------------
+0 = No permission
+
+1 = Execute
+
+2 = Write
+
+3 = Execute + Write
+
+4 = Read
+
+5 = Read + Execute
+
+6 = Read + Write
+
+7 = Read + Write + Execute
+--------------------
+Tutorials
+
+How to change the permission on a file
+
+Step 1: Open terminal
+
+Step 2: Make sure that you have a preexisting file
+
+Step 3: Type in sudo chmod <Permissions> <File>
+
+
+
+How to see the permissions on a file
+
+Step 1: Open terminal
+
+Step 2: Make sure you're inside of the folder where the file you want to check is
+
+Step 3: Type ls -l
+
+-------------------
+
+Informational stuff
+
+When it comes to actually typing in permission structures
