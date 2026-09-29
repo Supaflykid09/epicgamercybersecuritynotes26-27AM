@@ -35,6 +35,21 @@ I am splitting this stuff up man, thank me later
 --------------------------
 
 MOVEMENT
+(Copied from Mr.Lagenours notes EXACTLY)
+
+j = move down one line
+k = move up one line
+l = move right one character
+h = move left one character
+#j/k/l/h = move a number of lines
+
+w = jump to start of a word
+e = jump to the end of a word
+b = jump backwards to the start of a word
+W,E,B = same command but contains punctuation
+gg = Top of the file
+G = bottom of the file
+:# = Go to specific number of line
 
 --------------------------
 

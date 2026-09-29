@@ -1,0 +1,83 @@
+So for whatever reason ALL of my commands for Windows and Linux got killed off by some evil man, I am tired and I am NOT going to troubleshoot. Lagenour just posted his notes for Linux and Windows commands so I am just gonna put those here. I am going to crashouuuuttttt
+
+
+Pwd - print working directory
+ls - list selected files
+ls -l = list files into long format
+ls -a = lists all files, including hidden
+ls -la = combines -a and -l
+cd <directory> = change directory
+Cd ../ = go back one directory
+Cd ../../ = go back two directorys
+mkdir = make a directory
+mkdir -p folder1/folder2 = creates a parent directory with as many trailing directories
+touch = create a file(s)
+touch file1
+touch file1 file2
+cat = read contents of a file
+cat file1.txt
+cp = copy a file/folder
+cp -r = recursively copies a folder
+mv = rename and move a file/folder
+mv -r = Recursively moves a folder
+rm = remove a file
+rm -r = remove a folder
+echo = call text to the terminal or file
+echo $USER
+echo “Hello World” > file1.txt
+echo “Hellow World” >> file1.txt
+> = Overwrites or creates a new file
+ifconfig > file1 
+>> = Appends to the file
+echo “A new line line” >> file1.txt
+grep = search for patterns, needs quotations when searching for more than one word or phrase
+grep -r, searches recursively in folders
+ifconfig | grep inet
+Ifconfig | grep “inet 00”
+find = search for files and folders. Begins search from whichever directory you are currently in.
+find -name file.txt
+find -name *.txt
+head = display first 10 lines of a file
+tail = show last 10 lines of a file
+-n <number of lines> = display a custom number of lines you’re looking for
+head -n 15
+tail -n 30
+df - = Disk free, how much storage you have left
+df -h = makes the filesystem human readable
+du = shows disk usage
+whoami = current user
+hostname -I = displays your current ip addresses(s)
+ip addr - displays ip info
+ip a = displays ip info
+ip link = displays ip info
+ip route = displays ip info
+
+ping <address> = checks for a local active connection
+nslookup <address> = dns lookup tool
+traceroute <address> = shows all hops before getting to destination
+sudo = grants elevated permissions
+
+SSH
+ssh username@ip_address
+(be sure both devices are on the same network)
+
+systemctl status ssh - check ssh status
+service ssh status - checks ssh status
+
+systemctl start ssh - enable ssh
+service ssh start - enable ssh
+
+Powershell Commands
+
+Ipconfig = Displays Windows network configuration    
+ipconfig /all = Displays detailed network information, including MAC/DNS/DHCP information
+ping <address> = Tests connectivity to another device
+tracert <address> = Shows the route packets take to a destination
+nslookup <domain> = Looks up DNS information
+netstat    = Displays network connections and network statistics
+netstat -n = Shows connections using numerical IP addresses and port numbers
+Get-NetIPAddress = Displays IP address information using PowerShell
+Get-NetAdapter = Displays network adapters and their status
+Get-NetIPConfiguration = Displays network configuration information
+Select-String = PowerShell tool for searching/filtering text
+findstr = Windows command for filtering text output
