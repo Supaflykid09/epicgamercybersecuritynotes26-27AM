@@ -13,3 +13,8 @@ Here you can find things related to whatever was taught, everything is relativel
 # ONLY RULE I HAVE.
 
 Please do not make any changes to any of the files, I don't care how you use the notes however I would not be happy if I shared this with a lot of people and someone deleted a bunch of stuff because they wanted to be a jerk. If you see something wrong, tell me and I'll fix it, please don't automatically make the choice to do it yourself. And if you do give these notes out please make sure to tell them it was Brandon Steiner who made them. Don't take the credit for yo self
+\---
+
+# Credits
+
+Hans Lagenour - Copy and pasted most of the notes coming from him. More specifically, Did ALL of the notes for Windows and Linux commands and some notes in Vim.txt starting from line 40 to line 52.
