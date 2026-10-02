@@ -1,5 +1,0 @@
-sed 's/old/new' - This substitutes text over the old one
-
-sed #d - Deletes the line of the number before d
-
-sed -n '/<keyword>/p' - This prints out lines that have the keyword in it. Sorta like a filter

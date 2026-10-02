@@ -1,0 +1,1 @@
+Just keep in mind that these scripts mostly require Linux. The hello_user script does technically work but it doesn't grab any system information since it's trying to read from files from the actual Linux machine. If you ran this on Linux though it should work just fine!!
