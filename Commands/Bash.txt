@@ -1,6 +1,7 @@
 read = Reads user input
 
-echo "<put in whateva>" = Echos back your thing
+echo "<put in whateva>" = Says whatever you put in quotations to the script user
 
 read -p "<put in whateva>" <variable> = This waits for user input and once the user has typed a response, that will be the variable for that session.
 
+<variable>=$(<your command here>) - This makes it so that your variable is actually using a command instead of doing something hard coded in.
