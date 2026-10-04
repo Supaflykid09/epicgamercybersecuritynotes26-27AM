@@ -1,0 +1,3 @@
+Hey! You stumbled upon the tutorial stuff
+
+Please keep in mind that whenever you use the tutorials in here they are mostly done inside of Windows, don't fret though! If you need to use bash/pi you totally can!! Just keep in mind that some commands might not work through Windows
