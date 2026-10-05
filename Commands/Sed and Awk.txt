@@ -1,10 +1,23 @@
-sed 's/old/new' - This substitutes text over the old one
+sed 's/old/new/' <file> - This substitutes text over the old one
+	(Doing 's/old/new/g' makes it global because there is a g at the end and changes all instances of the old text)
 
 sed #d - Deletes the line of the number before d
 
 sed -n '/<keyword>/p' - This prints out lines that have the keyword in it. Sorta like a filter
 
+sed -n '#p' - Pulls a specific line
+
+sed -i <commandhere> - This will permanently write to the file with whatever change you made.
 
 -------------------------------
 
 awk '{print $#}' - Print a specific column 
+   (If you want to print multiple columns do '{print $#, $#}'. You cannot pipe this command twice.)
+   (If you want to change the order of columns when they are printed, do what column number you want printed first.)
+
+
+
+awk '{print "textgoeshere", $#}' - Prints out a word behind each line of the column you pulled
+
+awk '/<pattern> / {print $#}' - Pretty much grep but it narrows it down a lot more.
+
