@@ -1,23 +1,28 @@
 sed 's/old/new/' <file> - This substitutes text over the old one
 	(Doing 's/old/new/g' makes it global because there is a g at the end and changes all instances of the old text)
 
-sed #d - Deletes the line of the number before d
+sed #d <filename> - Deletes the line of the number before d
 
-sed -n '/<keyword>/p' - This prints out lines that have the keyword in it. Sorta like a filter
+sed -n '/<keyword>/p' <filename> - This prints out lines that have the keyword in it. Sorta like a filter
 
-sed -n '#p' - Pulls a specific line
+sed -n '#p' <filename> - Pulls a specific line
 
-sed -i <commandhere> - This will permanently write to the file with whatever change you made.
+sed -i <commandhere> <filename> - This will permanently write to the file with whatever change you made.
 
 -------------------------------
 
-awk '{print $#}' - Print a specific column 
+awk '{print $#}' <filename> - Print a specific column 
    (If you want to print multiple columns do '{print $#, $#}'. You cannot pipe this command twice.)
    (If you want to change the order of columns when they are printed, do what column number you want printed first.)
 
 
 
-awk '{print "textgoeshere", $#}' - Prints out a word behind each line of the column you pulled
+awk '{print "textgoeshere", $#}' <filename> - Prints out a word behind each line of the column you pulled
 
-awk '/<pattern> / {print $#}' - Pretty much grep but it narrows it down a lot more.
+awk '/<pattern> / {print $#}' <filename> - Pretty much grep but it narrows it down a lot more.
+	(Make sure that you don't put a space if you're at the end of a file)
+	(If you wanna do two patterns add a pipeline inbetween the first pattern and the 	second)
 
+awk '$# > # {print $#}' - This looks at a column and looks for values greater than the number you put in. (ex: awk '$4 > 30 {print $2}' employees.txt would look in column 4 and find numbers greater than 30, then it would print out the second column of names.)
+
+awk '$# == "<word>" - Pretty much just the same as doing awk '{print "textgoeshere", $#}'
